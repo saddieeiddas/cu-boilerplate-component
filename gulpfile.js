@@ -24,19 +24,17 @@ var headerLicenceJs = ['/**',
 
 // Config
 var config = {
-  srcGlob: 'src/**/*.ts',
-  bundleDir: 'dist/js',
-  libDir: 'lib',
+  tsGlob: 'module/ts/**/*.ts',
+  bundleDir: 'module/js',
   moduleName: 'cu-module-ts-example',
-  moduleFile: 'src/module.ts',
+  moduleFile: 'module/ts/module.ts',
   serverPort: 9000
-
 };
 
 // Web Server
 gulp.task('server', function () {
   connect.server({
-    root: '',
+    root: 'module',
     livereload: true,
     port: config.serverPort
   });
@@ -44,7 +42,7 @@ gulp.task('server', function () {
 
 // Watch - Currently runs bundle:dev to build the browserify bundle
 gulp.task('watch', ['lint', 'bundle:dev'], function () {
-  gulp.watch(config.srcGlob, ['lint', 'bundle:dev']);
+  gulp.watch(config.tsGlob, ['lint', 'bundle:dev']);
 });
 
 // Lint
