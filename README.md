@@ -50,29 +50,13 @@ Gulp Configuration
 There is a `config` variable in `gulpfile.js` which can be used to easily configure the build process and file names .
 
 
+
 Developing
 ----------
 
-To develop there are a number of `gulp` tasks configured:
+The build process is provided by [cu-ui-build-tools](https://github.com/saddieeiddas/cu-ui-build-tools#component-builder)
 
+The build can be configured in `cu-build.config.js`
 
-#### gulp server
+You can view the gulp tasks here https://github.com/saddieeiddas/cu-ui-build-tools#component-builder
 
-This will create a connect server, you can then access this server via at http://localhost:9000/
-This will serve the `module/index.html` file which can be used to test/develop the module.
-
-
-#### gulp watch
-
-This will watch the src directory and compile the development bundle file on changes.
-This paired with the server and `module/index.html` should allow for easy testing/development.
-
-
-#### gulp build
-
-This will build the `bundle` javascript files based on the `module/ts` contents.
-
-
-#### gulp lint
-
-This currently does not `lint` anything, but could be replaces with a linting system for typescript
