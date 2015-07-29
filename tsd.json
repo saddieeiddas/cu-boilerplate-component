@@ -2,7 +2,7 @@
   "version": "v4",
   "repo": "borisyankov/DefinitelyTyped",
   "ref": "master",
-  "path": "module/ts",
-  "bundle": "module/ts/tsd.d.ts",
+  "path": "src/ts",
+  "bundle": "src/ts/tsd.d.ts",
   "installed": {}
 }

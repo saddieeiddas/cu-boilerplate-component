@@ -1,5 +1,5 @@
-cu-module-ts-example
-====================
+cu-ui-boilerplate-component
+===========================
 
 > example CU module written in typescript
 
@@ -29,10 +29,10 @@ The structure of this example library is as follows:
 This directory is also where all assets will go, including `html`, `css`, `images` and `audio`.
 
 
-#### module/ts/module.ts
+#### module/ts/component.ts
 
 This is the entry point for the module.
-The example `module.js` is exporting everything from `cu-lib-example`
+The example `module.js` is exporting everything from `cu-ui-boilerplate-library`
 It is also doing some console logs, to check things are being imported correctly.
 
 

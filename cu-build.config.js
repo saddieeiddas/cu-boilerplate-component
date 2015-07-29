@@ -6,9 +6,9 @@
 
 module.exports = {
   buildType: 'component',
-  tsGlob: ['module/ts/**/*.ts', 'module/ts/**/*.tsx'],
-  bundleDir: 'module/js',
-  moduleName: 'cu-module-ts-example',
-  moduleFile: 'module/ts/module.ts',
+  tsGlob: ['src/ts/**/*.ts', 'src/ts/**/*.tsx'],
+  bundleDir: 'src/js',
+  moduleName: 'cu-ui-boilerplate-component',
+  moduleFile: 'src/ts/component.ts',
   serverPort: 9000
 };

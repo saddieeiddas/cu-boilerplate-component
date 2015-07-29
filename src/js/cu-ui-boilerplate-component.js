@@ -4,18 +4,6 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
-/// <reference path="tsd.d.ts" />
-var cuLibExample = require("cu-lib-example");
-cuLibExample.ComponentName.staticSayHello();
-var cuLibExampleComponent = new cuLibExample.ComponentName();
-cuLibExampleComponent.sayHello();
-console.log('hello from cu-module-ts-example');
-},{"cu-lib-example":3}],2:[function(require,module,exports){
-/**
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/.
- */
 
 'use strict';
 
@@ -27,29 +15,29 @@ var _createClass = (function () { function defineProperties(target, props) { for
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-var ComponentName = (function () {
-  function ComponentName() {
-    _classCallCheck(this, ComponentName);
+var BoilerplateModule = (function () {
+  function BoilerplateModule() {
+    _classCallCheck(this, BoilerplateModule);
   }
 
-  _createClass(ComponentName, [{
+  _createClass(BoilerplateModule, [{
     key: 'sayHello',
     value: function sayHello() {
-      console.log('sayHello from cu-lib-example');
+      console.log('sayHello from cu-ui-boilerplate-library');
     }
   }], [{
     key: 'staticSayHello',
     value: function staticSayHello() {
-      console.log('staticSayHello from cu-lib-example');
+      console.log('staticSayHello from cu-ui-boilerplate-library');
     }
   }]);
 
-  return ComponentName;
+  return BoilerplateModule;
 })();
 
-exports.ComponentName = ComponentName;
+exports.BoilerplateModule = BoilerplateModule;
 
-},{}],3:[function(require,module,exports){
+},{}],2:[function(require,module,exports){
 /**
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -58,19 +46,23 @@ exports.ComponentName = ComponentName;
 
 'use strict';
 
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
+module.exports = {
+  BoilerplateModule: require('./boilerplate-module/boilerplate-module')
+};
 
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+},{"./boilerplate-module/boilerplate-module":1}],3:[function(require,module,exports){
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/// <reference path="tsd.d.ts" />
+var cuBoilerplateLibrary = require("cu-ui-boilerplate-library");
+cuBoilerplateLibrary.BoilerplateModule.staticSayHello();
+var cuBoilerplateLibraryModule = new cuBoilerplateLibrary.BoilerplateModule();
+cuBoilerplateLibraryModule.sayHello();
+console.log('hello from cu-ui-boilerplate-component');
+},{"cu-ui-boilerplate-library":2}]},{},[3])
 
-function _defaults(obj, defaults) { var keys = Object.getOwnPropertyNames(defaults); for (var i = 0; i < keys.length; i++) { var key = keys[i]; var value = Object.getOwnPropertyDescriptor(defaults, key); if (value && value.configurable && obj[key] === undefined) { Object.defineProperty(obj, key, value); } } return obj; }
 
-var _componentNameComponentName = require('./component-name/component-name');
-
-_defaults(exports, _interopRequireWildcard(_componentNameComponentName));
-
-},{"./component-name/component-name":2}]},{},[1])
-
-
-//# sourceMappingURL=cu-module-ts-example.js.map
+//# sourceMappingURL=cu-ui-boilerplate-component.js.map

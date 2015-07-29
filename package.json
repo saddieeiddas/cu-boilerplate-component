@@ -1,11 +1,11 @@
 {
-  "name": "cu-module-ts-example",
+  "name": "cu-ui-boilerplate-component",
   "version": "1.0.0",
   "description": "",
   "license": "MPL-2.0",
   "main": "module/ts/module.ts",
   "dependencies": {
-    "cu-lib-example": "git@github.com:saddieeiddas/cu-lib-example.git#master"
+    "cu-ui-boilerplate-library": "git@github.com:saddieeiddas/cu-ui-boilerplate-library.git#master"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
