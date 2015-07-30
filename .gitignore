@@ -1,2 +1,8 @@
 .idea
 /node_modules
+npm-debug.log
+.sublime-gulp.cache
+/bin
+/obj
+/tmp
+/dist
