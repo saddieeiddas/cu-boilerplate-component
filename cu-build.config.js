@@ -5,5 +5,5 @@
 module.exports = {
   type: 'component',
   path: __dirname,
-  name: 'cu-ui-boilerplate-component',
+  name: 'location',
 };

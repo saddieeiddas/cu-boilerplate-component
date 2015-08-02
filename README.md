@@ -3,6 +3,9 @@ cu-ui-boilerplate-component
 
 > example CU component written in typescript
 
+This example provides a `location` component which was written by [Mehuge](https://github.com/Mehuge) to give a working
+example of how to write a component in `ts` and `tsx`
+
 ===
 
 Installation
@@ -24,22 +27,22 @@ The structure of this example library is as follows:
 
 ---
 
-#### src
+#### `src`
 
-This directory is also where all assets will go, including `html`, `css`, `images` and `audio`.
+This directory is also where all assets will go, including `ts`, `tsx`, `html`, `styl`, `images` and `audio`.
 
 
-#### src/ts/component.ts
+#### `src/ts/main.tsx` or `src/ts/main.ts`
 
 This is the entry point for the module.
-The example `module.js` is exporting everything from `cu-ui-boilerplate-library`
-It is also doing some console logs, to check things are being imported correctly.
+The example `main.tsx` is importing `location.tsx` and rendering the react component.
 
 
-#### src/ts/tsd.d.ts
+#### `src/typings/*.d.ts`
 
-This is the TypeScript definition file for the module. This is managed by `tsd` https://github.com/DefinitelyTyped/tsd.
+This is managed by `tsd`.
 To update this file for all node_modules run `tsd link` on the project root.
+You can read the guides at [https://github.com/DefinitelyTyped/tsd](https://github.com/DefinitelyTyped/tsd) for more info
 
 
 ===
