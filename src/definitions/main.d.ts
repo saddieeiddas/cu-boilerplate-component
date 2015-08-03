@@ -1,4 +1,4 @@
-/// <reference path="../typings/tsd.d.ts" />
+/// <reference path="tsd.d.ts" />
 
 // TODO remove this cuAPI declaration, will be replaced by cuAPI libraries own declaration
 declare interface cuAPI {
