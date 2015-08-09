@@ -1,5 +1,5 @@
 {
-  "name": "cu-ui-boilerplate-component",
+  "name": "cu-boilerplate-component",
   "version": "1.0.0",
   "description": "",
   "license": "MPL-2.0",
@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "cu-ui-build-tools": "git+https://github.com/saddieeiddas/cu-ui-build-tools.git#master"
+    "cu-ui-build-tools": "git+https://github.com/CUModSquad/cu-build-tools.git#master"
   }
 }

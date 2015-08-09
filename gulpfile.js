@@ -8,4 +8,4 @@ var gulp = require('gulp');
 
 var buildConfig = require('./cu-build.config.js');
 
-require('cu-ui-build-tools').auto(gulp, buildConfig);
+require('cu-build-tools').auto(gulp, buildConfig);

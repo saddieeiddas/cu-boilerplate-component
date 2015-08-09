@@ -14,6 +14,8 @@ if (typeof cuAPI === "undefined") {
 
 import {Location} from './location';
 
+console.log('rendering location');
+
 React.render(
     <Location pollInterval={200}/>,
     document.getElementById("loc")

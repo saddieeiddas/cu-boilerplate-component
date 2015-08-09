@@ -1,4 +1,4 @@
-cu-ui-boilerplate-component
+cu-boilerplate-component
 ===========================
 
 > example CU component written in typescript
@@ -51,9 +51,9 @@ You can read the guides at [https://github.com/DefinitelyTyped/tsd](https://gith
 Developing
 ----------
 
-The build process is provided by [cu-ui-build-tools](https://github.com/saddieeiddas/cu-ui-build-tools#component-builder)
+The build process is provided by [cu-build-tools](https://github.com/CUModSquad/cu-build-tools#componentlibrary---builder)
 
 The build can be configured in `cu-build.config.js`
 
-You can view the gulp tasks here https://github.com/saddieeiddas/cu-ui-build-tools#component-builder
+You can view the gulp tasks here https://github.com/CUModSquad/cu-build-tools#componentlibrary---builder
 

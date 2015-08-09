@@ -1,6 +1,6 @@
 {
-  "name": "location",
-  "mainFile": "location/index.html",
+  "name": "cu-boilerplate-component",
+  "mainFile": "cu-boilerplate-component/index.html",
   "rect": {
     "left": 400,
     "top": 400,
