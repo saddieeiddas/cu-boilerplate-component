@@ -60,3 +60,15 @@ The build can be configured in `cu-build.config.js`
 
 You can view the gulp tasks here https://github.com/CUModSquad/cu-build-tools#componentlibrary---builder
 
+===
+
+Visual Studio
+-------------
+
+Visual Studio can't currently build Typescript 1.6. In order to manually add support you'll need to do the following:
+
+1. Download and install [node.js.](https://nodejs.org/)
+2. From the commandline run `npm install typescript@next -g`.
+3. Open `C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript` and make a copy of the `1.5` folder (renaming it to `1.6`).
+4. Copy the contents of `%APPDATA%\\npm\\node_modules\\typescript\\lib` to the `1.6` folder, overwriting all files.
+

@@ -1,4 +1,5 @@
 .idea
+.suo
 /node_modules
 npm-debug.log
 .sublime-gulp.cache
@@ -7,3 +8,4 @@ npm-debug.log
 /tmp
 /dist
 /publish
+/.vs
