@@ -11,9 +11,12 @@ example of how to write a component in `ts` and `tsx`
 Installation
 ------------
 
+You will need Git on your path. One way to do this is to install [Github For Windows](https://windows.github.com/) and use the "Git Shell" shortcut in your start menu. 
+
 Clone the Repository and run:
 
-```
+```sh
+npm install gulp -g
 npm install
 ```
 
