@@ -4,10 +4,20 @@
   "description": "",
   "license": "MPL-2.0",
   "main": "module/ts/module.ts",
+  "contributors": [
+    "saddieeiddas <saddie.eiddas@gmail.com>",
+    "jcdickinson <jonathan@dickinsons.co.za>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csegames/cu-boilerplate-component.git"
+  },
   "dependencies": {
     "react": "^0.13.3"
   },
   "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.22",
     "gulp": "^3.9.0",
     "cu-ui-build-tools": "git+https://github.com/CUModSquad/cu-build-tools.git#master"
   }
