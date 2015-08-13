@@ -1,5 +1,5 @@
 cu-boilerplate-component
-===========================
+========================
 
 > example CU component written in typescript
 
