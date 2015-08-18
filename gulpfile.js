@@ -4,8 +4,10 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-import gulp from 'gulp';
-import buildConfig from './cu-build.config.js';
-import buildTools from 'cu-build-tools';
+ 'use strict';
+
+ var gulp = require('gulp');
+ var buildConfig = require('./cu-build.config.js');
+ var buildTools = require('cu-build-tools');
 
 buildTools.auto(gulp, buildConfig);

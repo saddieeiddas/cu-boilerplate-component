@@ -4,8 +4,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-export default {
+ module.exports = {
   type: 'component',
   path: __dirname,
   name: 'cu-boilerplate-component',
-};
+ }

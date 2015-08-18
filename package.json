@@ -1,7 +1,8 @@
 {
+  "private": true,
   "name": "cu-boilerplate-component",
   "version": "0.1.0",
-  "description": "",
+  "description": "Boilerplate example Camelot Unchained UI library",
   "license": "MPL-2.0",
   "main": "module/ts/module.ts",
   "contributors": [
@@ -16,9 +17,7 @@
     "react": "^0.13.3"
   },
   "devDependencies": {
-    "babel": "^5.8.21",
-    "babel-core": "^5.8.22",
     "gulp": "^3.9.0",
-    "cu-ui-build-tools": "git+https://github.com/CUModSquad/cu-build-tools.git#master"
+    "cu-build-tools": "git+https://github.com/CUModSquad/cu-build-tools.git#master"
   }
 }
