@@ -4,10 +4,11 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
- 'use strict';
+'use strict';
 
- var gulp = require('gulp');
- var buildConfig = require('./cu-build.config.js');
- var buildTools = require('cu-build-tools');
+var gulp = require('gulp');
+var buildConfig = require('./cu-build.config.js');
+var buildTools = require('cu-build-tools');
 
-buildTools.auto(gulp, buildConfig);
+// load build tool tasks and obtain processed build configuration
+var config = buildTools.auto(gulp, buildConfig);

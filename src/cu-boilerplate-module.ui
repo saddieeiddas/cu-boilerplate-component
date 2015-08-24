@@ -1,0 +1,12 @@
+{
+  "name": "cu-boilerplate-module",
+  "mainFile": "cu-boilerplate-module/index.html",
+  "rect": {
+    "left": 520,
+    "top": 350,
+    "right": 920,
+    "bottom": 550
+  },
+  "handlesInput": true,
+  "enabled": true
+}
