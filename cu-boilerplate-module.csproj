@@ -31,7 +31,7 @@
   <ItemGroup>
     <Content Include="src\cu-boilerplate-module.ui"/>
     <Content Include="src\index.html"/>
-    <Content Include="src\style\main.styl"/>
+    <Content Include="src\sass\main.scss"/>
     <TypeScriptCompile Include="src\ts\main.tsx"/>
   </ItemGroup>
   <PropertyGroup>
