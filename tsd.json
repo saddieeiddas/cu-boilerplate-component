@@ -2,7 +2,11 @@
   "version": "v4",
   "repo": "borisyankov/DefinitelyTyped",
   "ref": "master",
-  "path": "src/definitions",
-  "bundle": "src/definitions/tsd.d.ts",
-  "installed": {}
+  "path": "src/tsd",
+  "bundle": "src/tsd/tsd.d.ts",
+  "installed": {
+    "react/react.d.ts": {
+      "commit": "71a7d5306ae4f9893aafd2d85d38aac8789ebf33"
+    }
+  }
 }

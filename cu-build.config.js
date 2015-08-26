@@ -4,8 +4,10 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
- module.exports = {
-  type: 'component',
+var name = 'cu-boilerplate-module';
+
+module.exports = {
+  type: 'module',
   path: __dirname,
-  name: 'cu-boilerplate-component',
- }
+  name: name,
+};
