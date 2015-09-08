@@ -1,11 +1,21 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "noImplicitAny": true,
-    "removeComments": false,
-    "outDir": "./tmp",
-    "sourceMap": false,
-    "definition": true,
-    "jsx": "react"
-  }
+    "compilerOptions": {
+        "target": "es6",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "outDir": "./tmp",
+        "sourceMap": false,
+        "jsx": "react"
+    },
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "filesGlob": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+    ],
+    "files": [
+        "./src/tsd/react/react.d.ts",
+        "./src/tsd/tsd.d.ts",
+        "./src/ts/main.tsx"
+    ]
 }
