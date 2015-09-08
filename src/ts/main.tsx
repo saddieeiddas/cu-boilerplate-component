@@ -9,4 +9,4 @@
 import * as React from 'react';
 import * as cu from 'cu-core';
 
-console.log('Hello World');
+console.log('cu-boilerplate-module');
