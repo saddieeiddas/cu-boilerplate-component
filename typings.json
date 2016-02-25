@@ -1,0 +1,9 @@
+{
+  "name": "cu-boilerplate-module",
+  "ambientDependencies": {
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#263705d313346e093d95cb62cef6fed848e46978"
+  },
+  "dependencies": {
+    "camelot-unchained": "github:csegames/camelot-unchained-client-library"
+  }
+}

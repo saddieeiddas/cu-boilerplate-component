@@ -4,9 +4,6 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-/// <reference path="../tsd/tsd.d.ts" />
-
-import * as React from 'react';
-import * as cu from 'cu-core';
+import {client} from 'camelot-unchained';
 
 console.log('cu-boilerplate-module');
